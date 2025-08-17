@@ -1,67 +1,121 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>CAP Garland, LLC</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tidy Auto Care LLC</title>
   <style>
     body {
-      font-family: Arial, sans-serif;
       margin: 0;
-      padding: 0;
-      background-color: #f0f0f0;
-      color: #333;
+      font-family: Arial, sans-serif;
+      background: url('https://avatars.mds.yandex.net/get-altay/5480011/2a0000017d03a540288e14aac0b52534ed10/XXL') no-repeat center center fixed;
+      background-size: cover;
+      color: #fff;
     }
     header {
-      background-color: #003366;
-      color: white;
-      padding: 30px 20px;
+      background: rgba(0,0,0,0.7);
+      padding: 20px;
       text-align: center;
     }
-    section {
-      max-width: 800px;
-      margin: 40px auto;
-      padding: 0 20px;
+    header h1 {
+      margin: 0;
+      font-size: 2.5em;
     }
-    h1, h2 {
-      color: #003366;
+    header p {
+      margin: 5px 0 0;
+      font-size: 1.2em;
     }
-    .contact {
-      background: #fff;
+    nav {
+      background: #111;
+      padding: 10px;
+      text-align: center;
+    }
+    nav a {
+      color: #fff;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    nav a:hover {
+      color: #ffd700;
+    }
+    .container {
+      display: flex;
+      background: rgba(0,0,0,0.7);
+      margin: 20px;
       padding: 20px;
-      border-left: 5px solid #003366;
-      margin-top: 30px;
+    }
+    .sidebar {
+      width: 25%;
+      padding: 10px;
+    }
+    .sidebar h3 {
+      color: #ffd700;
+    }
+    .content {
+      width: 75%;
+      padding: 20px;
+    }
+    .content h2 {
+      color: #ffd700;
+      margin-top: 0;
+    }
+    .content img {
+      max-width: 100%;
+      border-radius: 10px;
+      margin: 15px 0;
     }
     footer {
-      background-color: #003366;
-      color: white;
+      background: rgba(0,0,0,0.8);
       text-align: center;
       padding: 15px;
-      margin-top: 50px;
+      margin-top: 20px;
     }
   </style>
 </head>
 <body>
   <header>
-    <h1>CAP Garland, LLC</h1>
-    <p>Private Investment Fund</p>
+    <h1>Tidy Auto Care LLC</h1>
+    <p>Your Trusted Auto Care Partner in Newport Beach</p>
   </header>
 
-  <section>
-    <h2>About Us</h2>
-    <p>CAP Garland, LLC is a Washington-based private investment fund focused on delivering value through diversified investment strategies.</p>
+  <nav>
+    <a href="#services">Services</a>
+    <a href="#about">About Us</a>
+    <a href="#contact">Contact</a>
+  </nav>
 
-    <h2>Contact</h2>
-    <div class="contact">
-      <p><strong>Address:</strong> 915 W 2nd Ave, Spokane, WA 99201</p>
-      <p><strong>Email:</strong> <a href="mailto:ryanberg@capgarland.shop">ryanberg@capgarland.shop</a></p>
-      <p><strong>Phone:</strong> (509) 822-3850</p>
+  <div class="container">
+    <div class="sidebar">
+      <h3>Our Services</h3>
+      <ul>
+        <li>Full Car Wash</li>
+        <li>Interior Detailing</li>
+        <li>Wax & Polish</li>
+        <li>Engine Cleaning</li>
+        <li>Eco-Friendly Products</li>
+      </ul>
+      <h3>News</h3>
+      <p>Special offer: 20% off on your first service this month!</p>
     </div>
-  </section>
+
+    <div class="content">
+      <h2>Welcome to Tidy Auto Care</h2>
+      <p>At Tidy Auto Care LLC, we provide premium auto detailing and maintenance services in Newport Beach. Our mission is to keep your vehicle spotless, protected, and shining like new.</p>
+
+      <img src="https://i.ebayimg.com/images/g/ZxQAAOSwkcBa82Kz/s-l1600.jpg" alt="Car Care">
+      <p>Located at Birch Street, Newport Beach, we are committed to offering eco-friendly solutions that protect your car and the environment.</p>
+
+      <img src="https://avatars.mds.yandex.net/i?id=ca77cd31f1d58490a599726be615a392_l-9181674-images-thumbs&ref=rim&n=13&w=1198&h=800" alt="Auto Service">
+      <p>Our team of professionals ensures every detail is perfect, from the exterior shine to the interior freshness.</p>
+
+      <img src="https://avatars.mds.yandex.net/get-altay/5307539/2a000001828bcd54851ced5df31842cf5d8d/XXL_height" alt="Detailing">
+    </div>
+  </div>
 
   <footer>
-    &copy; 2025 CAP Garland, LLC. All rights reserved.
+    <p>📍 Birch Street, Newport Beach | ☎ 14475294975 | ✉ contact@tidyauto.shop</p>
+    <p>&copy; 2025 Tidy Auto Care LLC. All Rights Reserved.</p>
   </footer>
 </body>
 </html>
